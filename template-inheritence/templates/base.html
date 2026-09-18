@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Min hemsida</title>
+</head>
+<body>
+
+    <nav>
+        <a href="/">Hem</a> |
+        <a href="/about">Om oss</a> |
+        <a href="/contact">Kontakt</a>
+    </nav>
+
+    <h1>{% block heading %}{% endblock %}</h1>
+
+    <div>
+        {% block kontent %}{% endblock %}
+    </div>
+
+    <footer>
+        <p>Hemsida av Hugo Barklund</p>
+    </footer>
+
+</body>
+</html>
